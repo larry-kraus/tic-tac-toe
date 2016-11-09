@@ -10,6 +10,7 @@ body {
 	border: 1px solid black;
 	display: inline-block;
 	margin: 0px;
+	padding: 0px;
 
 }
 
@@ -29,4 +30,24 @@ body {
 	font-size: 24px;
 	border-radius: 4px;
 	float: right;
+}
+
+.xSquare {
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.oSquare {
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
 }
