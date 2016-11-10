@@ -71,6 +71,33 @@ square8.addEventListener("click", squarePick);
 var square9 = document.getElementById('square9');
 square9.addEventListener("click", squarePick);
 
+//CONSOLIDATE
+
+
+var clearTheBoard = function() {
+	square1.removeAttribute('class', 'xSquare');
+	square1.setAttribute('class', 'square');
+	square2.removeAttribute('class', 'xSquare');
+	square2.setAttribute('class', 'square');
+	square3.removeAttribute('class', 'xSquare');
+	square3.setAttribute('class', 'square');
+	square4.removeAttribute('class', 'xSquare');
+	square4.setAttribute('class', 'square');
+	square5.removeAttribute('class', 'xSquare');
+	square5.setAttribute('class', 'square');
+	square6.removeAttribute('class', 'xSquare');
+	square6.setAttribute('class', 'square');
+	square7.removeAttribute('class', 'xSquare');
+	square7.setAttribute('class', 'square');
+	square8.removeAttribute('class', 'xSquare');
+	square8.setAttribute('class', 'square');
+	square9.removeAttribute('class', 'xSquare');
+	square9.setAttribute('class', 'square');
+}
+
+var clearButton = document.getElementById('clearBoard');
+clearButton.addEventListener("click", clearTheBoard);
+
 //bigDiv.appendChild(square1);
 
 
