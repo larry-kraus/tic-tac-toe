@@ -6,22 +6,41 @@ var xTurn;
 var oTurn;
 var turnArray = ["x", "o", "x", "o", "x", "o", "x", "o", "x", "o", "x", "o"];
 
+/*
 if (turnArray[i] = "x") {
-	return xTurn === true && oTurn === false;
+	return xTurn === true;
+	return oTurn === false;
 }
 else {
-	return xTurn === false && oTurn === true;
+	return xTurn === false
+	return oTurn === true;
 }
 
 var whosTurn = function() {
 	xTurn = true;
 }
+*/
 
+
+var squarePick2 = function() {
+	if (xTurn === true) {
+		this.setAttribute("class", "xSquare");
+		//move one in turn array
+	}
+	else if (oTurn === true) {
+		this.setAttribute("class", "oSquare")
+		//move one in turn array
+	}
+	else {
+		console.log("We've got problems");
+	}
+}
 
 var squarePick = function() {
 	this.setAttribute("class", "xSquare");
 }
-//make an if else statement here
+
+
 
 var bigDiv = document.getElementById('bigDiv');
 
