@@ -1,5 +1,5 @@
 var micCheck = function() {
-	console.log("hell yeah");
+	console.log("hell yeah"); 
 };
 
 var xTurn;
@@ -38,6 +38,9 @@ var squarePick2 = function() {
 
 var squarePick = function() {
 	this.setAttribute("class", "xSquare");
+//	var newH2 = this.createElement('h2');
+//	newH2.textContent = 'X';
+//	this.appendChild(newH2);
 }
 
 
@@ -94,6 +97,7 @@ var clearTheBoard = function() {
 	square9.removeAttribute('class', 'xSquare');
 	square9.setAttribute('class', 'square');
 }
+
 
 var clearButton = document.getElementById('clearBoard');
 clearButton.addEventListener("click", clearTheBoard);
